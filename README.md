@@ -1,6 +1,11 @@
 # atom-q
 
-to install the grammar (all operating systems):
+GitHub's Atom Editor Package for q/kdb+
+
+Adapted by Derek Wisong from Kim Tang's sublime-q package
+https://github.com/kimtang/sublime-q/
+
+To install the package:
 
 Copy the language-q directory to the .atom/packages directory that is found inside your user's home directory.
 
