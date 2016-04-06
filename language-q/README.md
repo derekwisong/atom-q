@@ -1,3 +1,5 @@
 # language-q package
 
-A short description of your package.
+Grammar (syntax hilighting) for the Kx systems q/kdb+ language.
+
+Learn more about q/kdb+ at http://www.kx.com and http://code.kx.com
