@@ -1,0 +1,45 @@
+"*":
+  dsp:
+    prefix: "dsp"
+    body: '''
+      
+      (::)
+      
+    '''
+  func:
+    prefix: "func"
+    body: '''
+      
+      ${1:func}:{${2:body}};
+      
+    '''
+  func6:
+    prefix: "func6"
+    body: '''
+      
+      ${1:func}: { [${2:a};${3:b};${4:c};${5:d};${6:e};${7:f}]
+       ${8:/ body}
+       };
+      
+    '''
+  funca:
+    prefix: "funca"
+    body: '''
+      
+      {${1:/ body}}
+      
+    '''
+  funca2:
+    prefix: "funca2"
+    body: '''
+      
+      {[${1:x};${2:y}]${3:/ body}}
+      
+    '''
+  "select from where":
+    prefix: "sfw"
+    body: '''
+      
+      select ${1:columns} from ${2:table} where ${3:cond}
+      
+    '''
